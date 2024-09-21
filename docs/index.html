@@ -1,0 +1,47 @@
+<link href="https://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet" type="text/css">
+<style>
+	* {
+		font-family: "Jeju Gothic", sans-serif;
+	}
+	.button {
+		box-sizing: border-box;
+		background: linear-gradient(360deg, #0075FF 0%, #BDCCFF 100%);
+		border: 1px solid #000000;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+		backdrop-filter: blur(2px);
+		border-radius: 4px;
+		padding: 4px;
+	}
+	.code {
+		background: linear-gradient(360deg, #000000 0%, #3C3C3C 100%);
+		border: 1px solid #000000;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+		backdrop-filter: blur(2px);
+		border-radius: 4px;
+		color: #FFF;
+	}
+</style>
+	<img src="../logo.png">
+	<h1>Docs</h1>
+	<br>
+	<h4>A web browser built to be lightweight</h4>
+	<hr>
+	<h1>Navigation</h1>
+	<a href="#srcrun">Running from source</a><br>
+	<a href="#brwplg">Making browser plugins</a>
+	<hr>
+	<h1 id="srcrun">Running from source</h1>
+	<p>To run the web browser from source please download all of the browser requirements:</p>
+	<pre class="code">PyQt5
+sys
+PyQtWebEngine
+	</pre>
+	<p>Then obtain the source code using the <pre class="code">git</pre> command:</p>
+	<pre class="code">cd ~/Desktop
+mkdir Helium
+cd Helium
+git clone https://github.com/vkh700/Helium
+	</pre>
+	<p>After downloading the source you can run Helium by using <pre class="code">python3</pre> command:</p>
+	<pre class="code">python3 browser.py
+	</pre>
